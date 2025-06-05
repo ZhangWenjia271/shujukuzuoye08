@@ -46,13 +46,13 @@
 2. 写出上面E-R图的关系模式（要求注明主码）。
 
 ### 关系模式：
-1. **student**(ID, name, dept_name, tot_cred)
+1. **student**(ID, name, tot_cred)
    - 主码：ID
 
-2. **course**(course_id, title, dept_name, credits)
+2. **course**(course_id, title, credits)
    - 主码：course_id
 
-3. **section**(course_id, sec_id, semester, year, building, room_number, time_slot_id)
+3. **section**(course_id, sec_id, semester, year)
    - 主码：(course_id, sec_id, semester, year)
    - 外码：course_id 参照 course(course_id)
 
