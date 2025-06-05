@@ -30,7 +30,7 @@
 
 
 ### E-R图绘制：
- ![E-R图](https://github.com/user-attachments/assets/80bf980d-e45c-4df4-8dd6-aef82e989707)
+ ![image](https://github.com/user-attachments/assets/b8d7ebbe-05d1-4830-8c48-3a40cc33b0f7)
 
 
 ### 设计说明：
