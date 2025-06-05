@@ -8,14 +8,13 @@
 
 ### 需要用到的实体集：
 1. **student** (学生)
-   - 属性：ID（主码），name, dept_name, tot_cred
+   - 属性：ID（主码），name, tot_cred
 
 2. **course** (课程)
-   - 属性：course_id（主码），title, dept_name, credits
+   - 属性：course_id（主码），title, credits
 
 3. **section** (课程段)
    - 属性：(course_id, sec_id, semester, year) 复合主码
-   - 属性：building, room_number, time_slot_id
 
 ### 需要用到的联系集：
 1. **takes** (选课/考试记录)
